@@ -8,7 +8,7 @@ Below are the steps required to get this working on a base Linux system.
   * Install and Configure the Web Server
   * Start Web Server
 
-### 1. Install all required dependencies
+## 1. Install all required dependencies
 ---
 Install Python and its dependencies using the following command:
 ```
