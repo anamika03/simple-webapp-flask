@@ -4,9 +4,9 @@ This is a simple web application using Python Flask and MySQL database. It is de
 
 Below are the steps required to get this working on a base Linux system.
 
--Install all required dependencies
-* Install and Configure the Web Server
-+Start Web Server
+  * Install all required dependencies
+  * Install and Configure the Web Server
+  * Start Web Server
 
 ### 1. Install all required dependencies
 Install Python and its dependencies using the following command:
