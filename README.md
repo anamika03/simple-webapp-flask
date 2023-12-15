@@ -9,7 +9,7 @@ Below are the steps required to get this working on a base Linux system.
   * Start Web Server
 
 ### 1. Install all required dependencies
-
+---
 Install Python and its dependencies using the following command:
 ```
 apt-get install -y python python-setuptools python-dev build-essential python-pip python-mysqldb
