@@ -10,19 +10,19 @@ Follow these steps to set up and run the web application on a base Linux system.
 
 Install Python and its dependencies using the following command:
 
-```bash
+bash
 sudo apt-get install -y python python-setuptools python-dev build-essential python-pip python-mysqldb
 
 ### **2. Install and Configure Web Server**
 Install Python Flask and Flask MySQL dependencies:
 
-```bash
+bash
 Copy code
 pip install flask
 pip install flask-mysql
 Copy app.py from this repository or download it:
 
-```bash
+bash
 Copy code
 git clone https://github.com/your/repo.git
 
@@ -32,7 +32,7 @@ Edit app.py to configure database credentials and parameters.
 ### **4. Start Web Server**
 Start the Flask web server:
 
-```bash
+bash
 Copy code
 FLASK_APP=app.py flask run --host=0.0.0.0
 
