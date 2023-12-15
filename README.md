@@ -13,7 +13,7 @@ Install Python and its dependencies using the following command:
 bash
 sudo apt-get install -y python python-setuptools python-dev build-essential python-pip python-mysqldb
 
-### **2. Install and Configure Web Server**
+### 2. Install and Configure Web Server
 Install Python Flask and Flask MySQL dependencies:
 
 bash
@@ -26,17 +26,17 @@ bash
 Copy code
 git clone https://github.com/your/repo.git
 
-### **3. Configure Database**
+### 3. Configure Database
 Edit app.py to configure database credentials and parameters.
 
-### **4. Start Web Server**
+### 4. Start Web Server
 Start the Flask web server:
 
 bash
 Copy code
 FLASK_APP=app.py flask run --host=0.0.0.0
 
-### **5. Test**
+### 5. Test
 Open a browser and navigate to the following URLs:
 
 http://<IP>:5000 => Welcome
