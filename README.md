@@ -20,8 +20,8 @@ Install Python Flask and Flask MySQL dependencies:
 pip install flask
 pip install flask-mysql
 ```
-*Copy app.py or download it from a source repository
-*Configure database credentials and parameters
+* Copy app.py or download it from a source repository
+* Configure database credentials and parameters
 
 ### 3. Configure Database
 Start web server
