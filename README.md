@@ -9,14 +9,12 @@ Below are the steps required to get this working on a base Linux system.
   * Start Web Server
 
 ## 1. Install all required dependencies
----
 Install Python and its dependencies using the following command:
 ```
 apt-get install -y python python-setuptools python-dev build-essential python-pip python-mysqldb
 ```
 
-### 2. Install and Configure Web Server
-
+## 2. Install and Configure Web Server
 Install Python Flask and Flask MySQL dependencies:
 ```
 pip install flask
@@ -25,15 +23,13 @@ pip install flask-mysql
   * Copy app.py or download it from a source repository
   * Configure database credentials and parameters
 
-### 3. Configure Database
-
+## 3. Configure Database
 Start web server
 ```
 FLASK_APP=app.py flask run --host=0.0.0.0
 ```
 
-### 4. Start Web Server
-
+## 4. Start Web Server
 Open a browser and go to the URL
 ```
 http://<IP>:5000                            => Welcome
